@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>zenovich.github.io/pear</name>
+  <summary>Dmitry Zenovich's PEAR Channel Server</summary>
+  <alias>zenovich</alias>
+  <url>https://zenovich.github.io/pear</url>
+</server>
