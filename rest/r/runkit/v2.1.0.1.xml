@@ -1,26 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zenovich.github.io/pear</id>
-    <updated>2015-09-25T03:21:34+04:00</updated>
-    <title>Dmitry Zenovich's PEAR Channel Server Latest Releases</title>
-    <link href="https://zenovich.github.io/pear/feed.xml" rel="self" />
-    <author>
-        <name>https://zenovich.github.io/pear</name>
-    </author>
-
-    <entry>
-        <title>runkit 1.0.1 (stable)</title>
-        <link href="https://zenovich.github.io/pear/get/runkit-1.0.1.tgz" />
-        <id>https://zenovich.github.io/pear/get/runkit-1.0.1.tgz</id>
-        <author>
-            <name></name>
-        </author>
-        <updated>2010-10-03T19:35:25+04:00</updated>
-        <content>
-            Replace, rename, and remove user defined functions and classes.
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/runkit">runkit</p>
+    <c>zenovich.github.io/pear</c>
+    <v>1.0.1</v>
+    <a>1.0.1</a>
+    <mp>4.0.0</mp>
+    <st>stable</st>
+    <l>PHP</l>
+    <m></m>
+    <s>For all those things you.... probably shouldn't have been doing anyway....</s>
+    <d>Replace, rename, and remove user defined functions and classes.
 Define customized superglobal variables for general purpose use.
-Execute code in restricted environment (sandboxing).
-            
+Execute code in restricted environment (sandboxing).</d>
+    <da>2010-10-03 19:35:25</da>
+    <n>
 New features:
     + The patch made by David Sklar was applied to support creation and changing of static methods.
       The new user-level const &quot;RUNKIT_ACC_STATIC&quot; was introduced.
@@ -44,7 +37,8 @@ Main bug-fixes:
       and copied by runkit crashes afterwards on calling if the original method or function was removed
     * The issue that the runkit used to create new methods with lowercase names was fixed, tests were extended
     * Methods' prototype detection was fixed
- 
-        </content>
-    </entry>
-</feed>
+ </n>
+    <f>56719</f>
+    <g>https://zenovich.github.io/pear/get/runkit-1.0.1</g>
+    <x xlink:href="package.1.0.1.xml"/>
+</r>
