@@ -5,7 +5,7 @@
             <n>runkit</n>
             <c>zenovich.github.io/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
-            <l>PHP</l>
+            <l>BSD License (3 Clause)</l>
             <s>For all those things you.... probably shouldn't have been doing anyway....</s>
             <d>Replace, rename, and remove user defined functions and classes.
 Define customized superglobal variables for general purpose use.
@@ -14,6 +14,10 @@ Execute code in restricted environment (sandboxing).</d>
         </p>
 
         <a>
+            <r>
+                <v>1.0.3</v>
+                <s>stable</s>
+            </r>
             <r>
                 <v>1.0.2</v>
                 <s>stable</s>
@@ -25,6 +29,10 @@ Execute code in restricted environment (sandboxing).</d>
 
         </a>
 
+        <deps>
+            <v>1.0.3</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}}}</d>
+        </deps>
         <deps>
             <v>1.0.2</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}}}</d>

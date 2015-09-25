@@ -6,7 +6,7 @@
     <a>1.0.1</a>
     <mp>4.0.0</mp>
     <st>stable</st>
-    <l>PHP</l>
+    <l>BSD License (3 Clause)</l>
     <m></m>
     <s>For all those things you.... probably shouldn't have been doing anyway....</s>
     <d>Replace, rename, and remove user defined functions and classes.
