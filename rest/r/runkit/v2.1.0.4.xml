@@ -82,7 +82,7 @@ Build system improvements:
     * A compilation bug (with gcc 4.3+), caused by wrong definition of internal function,
       was fixed (Thanks to Reeze Xia)
  </n>
-    <f>104108</f>
+    <f>104111</f>
     <g>https://zenovich.github.io/pear/get/runkit-1.0.4</g>
     <x xlink:href="package.1.0.4.xml"/>
 </r>
