@@ -3,6 +3,11 @@
     <p>runkit</p>
     <c>zenovich.github.io/pear</c>
     <r>
+        <v>1.0.2</v>
+        <s>stable</s>
+        <m>4.0.0</m>
+    </r>
+    <r>
         <v>1.0.1</v>
         <s>stable</s>
         <m>4.0.0</m>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zenovich.github.io/pear</id>
-    <updated>2015-09-25T03:21:34+04:00</updated>
+    <updated>2015-09-25T04:06:42+04:00</updated>
     <title>Dmitry Zenovich's PEAR Channel Server Latest Releases</title>
     <link href="https://zenovich.github.io/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,22 @@
     </author>
 
     <entry>
+        <title>runkit 1.0.2 (stable)</title>
+        <link href="https://zenovich.github.io/pear/get/runkit-1.0.2.tgz" />
+        <id>https://zenovich.github.io/pear/get/runkit-1.0.2.tgz</id>
+        <author>
+            <name></name>
+        </author>
+        <updated>2010-10-05T15:06:57+04:00</updated>
+        <content>
+            Replace, rename, and remove user defined functions and classes.
+Define customized superglobal variables for general purpose use.
+Execute code in restricted environment (sandboxing).
+            
+Disappointing incompatibility issue with php 5.3+ in untested code was fixed.
+ 
+        </content>
+    </entry>    <entry>
         <title>runkit 1.0.1 (stable)</title>
         <link href="https://zenovich.github.io/pear/get/runkit-1.0.1.tgz" />
         <id>https://zenovich.github.io/pear/get/runkit-1.0.1.tgz</id>

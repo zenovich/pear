@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/runkit">runkit</p>
+    <c>zenovich.github.io/pear</c>
+    <v>1.0.2</v>
+    <st>stable</st>
+    <l>PHP</l>
+    <m></m>
+    <s>For all those things you.... probably shouldn't have been doing anyway....</s>
+    <d>Replace, rename, and remove user defined functions and classes.
+Define customized superglobal variables for general purpose use.
+Execute code in restricted environment (sandboxing).</d>
+    <da>2010-10-05 15:06:57</da>
+    <n>
+Disappointing incompatibility issue with php 5.3+ in untested code was fixed.
+ </n>
+    <f>56860</f>
+    <g>https://zenovich.github.io/pear/get/runkit-1.0.2</g>
+    <x xlink:href="package.1.0.2.xml"/>
+</r>
