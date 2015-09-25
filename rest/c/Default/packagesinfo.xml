@@ -15,6 +15,10 @@ Execute code in restricted environment (sandboxing).</d>
 
         <a>
             <r>
+                <v>1.0.4</v>
+                <s>stable</s>
+            </r>
+            <r>
                 <v>1.0.3</v>
                 <s>stable</s>
             </r>
@@ -29,6 +33,10 @@ Execute code in restricted environment (sandboxing).</d>
 
         </a>
 
+        <deps>
+            <v>1.0.4</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}}}</d>
+        </deps>
         <deps>
             <v>1.0.3</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}}}</d>

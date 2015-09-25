@@ -1,26 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zenovich.github.io/pear</id>
-    <updated>2015-09-25T07:03:27+04:00</updated>
-    <title>Dmitry Zenovich's PEAR Channel Server Latest Releases</title>
-    <link href="https://zenovich.github.io/pear/feed.xml" rel="self" />
-    <author>
-        <name>https://zenovich.github.io/pear</name>
-    </author>
-
-    <entry>
-        <title>runkit 1.0.4 (stable)</title>
-        <link href="https://zenovich.github.io/pear/get/runkit-1.0.4.tgz" />
-        <id>https://zenovich.github.io/pear/get/runkit-1.0.4.tgz</id>
-        <author>
-            <name></name>
-        </author>
-        <updated>2015-09-25T02:50:58+04:00</updated>
-        <content>
-            Replace, rename, and remove user defined functions and classes.
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/runkit">runkit</p>
+    <c>zenovich.github.io/pear</c>
+    <v>1.0.4</v>
+    <st>stable</st>
+    <l>BSD License (3 Clause)</l>
+    <m></m>
+    <s>For all those things you.... probably shouldn't have been doing anyway....</s>
+    <d>Replace, rename, and remove user defined functions and classes.
 Define customized superglobal variables for general purpose use.
-Execute code in restricted environment (sandboxing).
-            
+Execute code in restricted environment (sandboxing).</d>
+    <da>2015-09-25 02:50:58</da>
+    <n>
 New features:
     + PHP 5.4, 5.5, and 5.6 are now fully supported
     - PHP 4.x is not supported anymore
@@ -88,81 +79,8 @@ Build system improvements:
     * All tests now succeed under valgrind
     * A compilation bug (with gcc 4.3+), caused by wrong definition of internal function,
       was fixed (Thanks to Reeze Xia)
- 
-        </content>
-    </entry>    <entry>
-        <title>runkit 1.0.3 (stable)</title>
-        <link href="https://zenovich.github.io/pear/get/runkit-1.0.3.tgz" />
-        <id>https://zenovich.github.io/pear/get/runkit-1.0.3.tgz</id>
-        <author>
-            <name></name>
-        </author>
-        <updated>2012-01-02T14:19:29+04:00</updated>
-        <content>
-            Replace, rename, and remove user defined functions and classes.
-Define customized superglobal variables for general purpose use.
-Execute code in restricted environment (sandboxing).
-            
-License was changed to the BSD License (3 Clause)
-Main bug-fixes:
-    * Building on windows-platform was fixed.
-    * The issue with inheritance of methods, which have been created by the runkit_method_rename function, was fixed.
-    * Fixed dumb bug in workarounds based on php-version.
- 
-        </content>
-    </entry>    <entry>
-        <title>runkit 1.0.2 (stable)</title>
-        <link href="https://zenovich.github.io/pear/get/runkit-1.0.2.tgz" />
-        <id>https://zenovich.github.io/pear/get/runkit-1.0.2.tgz</id>
-        <author>
-            <name></name>
-        </author>
-        <updated>2010-10-05T15:06:57+04:00</updated>
-        <content>
-            Replace, rename, and remove user defined functions and classes.
-Define customized superglobal variables for general purpose use.
-Execute code in restricted environment (sandboxing).
-            
-Disappointing incompatibility issue with php 5.3+ in untested code was fixed.
- 
-        </content>
-    </entry>    <entry>
-        <title>runkit 1.0.1 (stable)</title>
-        <link href="https://zenovich.github.io/pear/get/runkit-1.0.1.tgz" />
-        <id>https://zenovich.github.io/pear/get/runkit-1.0.1.tgz</id>
-        <author>
-            <name></name>
-        </author>
-        <updated>2010-10-03T19:35:25+04:00</updated>
-        <content>
-            Replace, rename, and remove user defined functions and classes.
-Define customized superglobal variables for general purpose use.
-Execute code in restricted environment (sandboxing).
-            
-New features:
-    + The patch made by David Sklar was applied to support creation and changing of static methods.
-      The new user-level const &quot;RUNKIT_ACC_STATIC&quot; was introduced.
-    + An ability to import static class properties was added.
-      The new user-level const &quot;RUNKIT_IMPORT_CLASS_STATIC_PROPS&quot; was introduced.
-    + An ability to apply a closure to a sandbox in PHP 5.3+ by calling the call_user_func method was added.
-
-Main bug-fixes:
-    * Fixes of issues with importing constant arrays into properties and constants
-    * Fixes of issues with importing functions or methods having static variables inside them
-    * The behaviour that old methods had been always overridden by new ones independently from
-      the RUNKIT_IMPORT_OVERRIDE flag was corrected
-    * Compatibility with 5.3+ in zts mode
-    * runkit_function_* functions were fixed with the patch from Keisial at gmail dot com
-      (see the second comment from http://pecl.php.net/bugs/bug.php?id=14086)
-    * The reverting of protected methods via runkit_method_copy was corrected, the segmentation fault
-      on calling restored method was eliminated
-    * Elimination of the segmentation-fault on exit after restoring modified internal functions
-      (see also http://pecl.php.net/bugs/bug.php?id=11632)
-    * Correction for the situation when a method or function having static variables in itself
-      and copied by runkit crashes afterwards on calling if the original method or function was removed
-    * The issue that the runkit used to create new methods with lowercase names was fixed, tests were extended
-    * Methods' prototype detection was fixed
- 
-        </content>
-    </entry>
-</feed>
+ </n>
+    <f>104108</f>
+    <g>https://zenovich.github.io/pear/get/runkit-1.0.4</g>
+    <x xlink:href="package.1.0.4.xml"/>
+</r>
